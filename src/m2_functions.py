@@ -26,10 +26,9 @@ def main():
     TESTS the functions that you will write below.
     You write the tests per the _TODO_s below.
     """
-    z = hyp(3,4)
+    z = hyp(3, 4)
     print(z)
-    f4a('red',11)
-
+    f4a('red', 11)
 
 
 ###############################################################################
@@ -41,7 +40,7 @@ def main():
 #     HINT: Apply the Pythagorean theorem.
 #
 #   You may name the function and its parameters whatever you wish.
-def hyp(x,y):
+def hyp(x, y):
     z = (x ** 2) + (y ** 2)
     return z ** 0.5
 
@@ -68,17 +67,18 @@ def hyp(x,y):
 #
 #   You may name the function and its parameters whatever you wish.
 #
-def f4a(color_input, number) :
+
+
+def f4a(color_input, number):
     window = rg.TurtleWindow()
     tt1 = rg.SimpleTurtle()
     tt2 = rg.SimpleTurtle()
 
     tt1.pen = rg.Pen('green', number)
-    tt2.pen = rg.Pen(color_input , 5)
+    tt2.pen = rg.Pen(color_input, 5)
     tt1.forward(100)
     tt2.backward(100)
     window.close_on_mouse_click()
-
 
 # DONE: 4b.  In main, CALL your function and print the returned value,
 #   to test whether you defined the function correctly.
@@ -88,7 +88,7 @@ def f4a(color_input, number) :
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   COMMIT-and-PUSH your work (after changing this TO-DO to DONE).
 #
 #   As a reminder, here is how you should do so:
