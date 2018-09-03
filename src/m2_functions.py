@@ -26,8 +26,10 @@ def main():
     TESTS the functions that you will write below.
     You write the tests per the _TODO_s below.
     """
-    hyp(3,4)
+    z = hyp(3,4)
     print(z)
+    f4a('red',11)
+
 
 
 ###############################################################################
@@ -41,18 +43,16 @@ def main():
 #   You may name the function and its parameters whatever you wish.
 def hyp(x,y):
     z = (x ** 2) + (y ** 2)
-    z = z ** 0.5
-    return z
+    return z ** 0.5
 
-# TODO: 3b.  In main, CALL your function and print the returned value,
+# DONE: 3b.  In main, CALL your function and print the returned value,
 #   to test whether you defined the function correctly.
 #
 ###############################################################################
 
-main()
 ###############################################################################
 #
-# TODO: 4a.  Define a function immediately below this _TODO_.
+# DONE: 4a.  Define a function immediately below this _TODO_.
 #   It takes two arguments:
 #     -- a string that represents a color (e.g. 'red')
 #     -- a positive integer that represents the thickness of a Pen.
@@ -68,7 +68,19 @@ main()
 #
 #   You may name the function and its parameters whatever you wish.
 #
-# TODO: 4b.  In main, CALL your function and print the returned value,
+def f4a(color_input, number) :
+    window = rg.TurtleWindow()
+    tt1 = rg.SimpleTurtle()
+    tt2 = rg.SimpleTurtle()
+
+    tt1.pen = rg.Pen('green', number)
+    tt2.pen = rg.Pen(color_input , 5)
+    tt1.forward(100)
+    tt2.backward(100)
+    window.close_on_mouse_click()
+
+
+# DONE: 4b.  In main, CALL your function and print the returned value,
 #   to test whether you defined the function correctly.
 #
 ###############################################################################
