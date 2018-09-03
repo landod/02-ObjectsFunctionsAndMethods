@@ -25,7 +25,7 @@ def main():
 #    better_draw_circles(rg.Point(100, 50), 5)
 #    better_draw_circles(rg.Point(-200, 0), 20)
 
-    even_better_draw_circles(rg.Point(100, 50), 30, 5, colors, thickness)
+    even_better_draw_circles(rg.Point(100, 50), 30, 8, colors, thickness)
     even_better_draw_circles(rg.Point(-200, 0), 20, 4, colors, thickness)
     window.update()
     window.close_on_mouse_click()
@@ -179,8 +179,8 @@ def better_draw_circles(point, radii):
 #   correct and does indeed use its parameters per their descriptions above.
 #
 ###############################################################################
-colors = ['red', 'blue', 'purple', 'black', 'pink', 'green']
-thickness = [5, 10, 15, 20, 25, 30]
+colors = ['red', 'blue', 'purple', 'black', 'pink', 'green', 'brown', 'crimson', 'darkviolet' ]
+thickness = [5, 10, 15, 20, 25, 30, 15, 22, 11, 4, 5, 18, 9, 14]
 def even_better_draw_circles(point, radii, i, colors, thickness):
     """ An improved version of draw_circles, per the _TODO_ above. """
     # READ the above _TODO_ and then copy-paste code from better_circles here:
