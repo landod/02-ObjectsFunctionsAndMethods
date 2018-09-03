@@ -81,9 +81,9 @@ def main():
     turtle = rg.SimpleTurtle('square')
     draw_many_squares(turtle, 3, 75, 15)
 
-#    turtle3()
- #   try_methods()
-  #  try_functions()
+#     turtle3()
+#     try_methods()
+#     try_functions()
     try_methods_and_functions()
     ###########################################################################
     # When the TODOs ask you to test YOUR code, put YOUR tests below this:
