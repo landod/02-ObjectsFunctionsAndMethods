@@ -196,7 +196,7 @@ def even_better_draw_circles(point,radii,i):
         turtle.right(90)
         turtle.forward(radii)
         turtle.left(90)
-        
+
         turtle.pen_down()
         turtle.draw_circle(radii * k)  # Radius 15, 30, 45, 60, ...
 
