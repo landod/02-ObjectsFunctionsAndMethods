@@ -195,7 +195,6 @@ def try_methods():
     ###########################################################################
 
 
-
 def try_functions():
     # IMPORTANT: Read the NOTE below before you try to solve this TO-DO!
     """
@@ -205,9 +204,9 @@ def try_functions():
      -- One jumps to (-50, 50), then moves (while drawing) to (100, 100)
     """
 
-    jump_and_move_turtle(200,100,300,30)
-    jump_and_move_turtle(100,200,0,0)
-    jump_and_move_turtle(-50,50,100,100)
+    jump_and_move_turtle(200, 100, 300, 30)
+    jump_and_move_turtle(100, 200, 0, 0)
+    jump_and_move_turtle(-50, 50, 100, 100)
     ###########################################################################
     # DONE: 4. Implement and test this function, per its doc-string above.
     #    (To test it, put a statement in   main   that calls this function.)
@@ -257,9 +256,9 @@ def try_methods_and_functions():
     turtle2.pen = rg.Pen('blue', 5)
     turtle2.backward(150)
     turtle2.speed = 2
-    draw_many_squares(turtle2,2,100,30)
+    draw_many_squares(turtle2, 2, 100, 30)
     turtle2.speed = 5
-    turtle2.pen = rg.Pen('red',5)
+    turtle2.pen = rg.Pen('red', 5)
     draw_many_squares(turtle2, 10, 50, 15)
     turtle2.speed = 100
     turtle2.pen = rg.Pen('red', 35)
